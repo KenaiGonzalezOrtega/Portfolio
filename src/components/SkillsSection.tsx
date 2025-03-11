@@ -20,7 +20,10 @@ export default function SkillsSection({ t }: { t: TFunction }) {
               key={item.id}
               className="flex flex-col items-center justify-around w-full"
             >
-              {item.icon}
+              <div className="w-24">
+                {item.icon}
+              </div>
+
               <p className="text-lg text-gray-700">{item.text}</p>
             </div>
           );

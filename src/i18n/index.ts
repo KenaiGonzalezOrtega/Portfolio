@@ -44,6 +44,14 @@ i18n
           contact: {
             title: "Contact",
             email: "Send email"
+          },
+          proyects: {
+            title: "My proyects",
+            technologies: "Technologies",
+            more: "See more",
+            "SimpLink": {
+              short: "SimpLink is a web app for creating and managing short URLs. It offers a fast, secure, and efficient solution for sharing links."
+            }
           }
 
         }
@@ -80,6 +88,14 @@ i18n
           contact: {
             title: "Contacto",
             email: "Enviar un email "
+          },
+          proyects: {
+            title: "Mis proyectos",
+            technologies: "Tecnologías",
+            more: "Ver más",
+            "SimpLink": {
+              short: "SimpLink es una aplicación web para crear y gestionar URL cortas. Ofrece una solución rápida, segura y eficiente para compartir enlaces."
+            }
           }
 
         }
