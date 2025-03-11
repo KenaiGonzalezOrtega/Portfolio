@@ -1,6 +1,6 @@
 export default function CSSIcon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
       <title>CSS Icon</title>
       <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
       <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />

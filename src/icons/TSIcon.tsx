@@ -1,6 +1,6 @@
 export default function TSIcon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
       <title> TS Icon</title>
       <linearGradient id="atmafua87GAY-Q3DVUuwga_nCj4PvnCO0tZ_gr1" x1="6" x2="42" y1="24" y2="24" gradientUnits="userSpaceOnUse">
         <stop offset="0" stopColor="#0d61a9" />
