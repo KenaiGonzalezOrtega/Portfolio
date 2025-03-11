@@ -3,14 +3,13 @@ import NodejsIcon from "../icons/NodejsIcon";
 import ReactIcon from "../icons/ReactIcon";
 import TSIcon from "../icons/TSIcon";
 import type Proyect from "../interfaces/Proyect";
-import generateId from "./generateID";
+import { generateIdWithAKey } from "../services/generateID";
 
-const items: Proyect[] = [
-  { name: "SimpLink", githubUrl: "https://simp-link.vercel.app/", id: generateId(), icons: [ReactIcon(), TSIcon(), NodejsIcon(), ExpressjsIcon(),] },
-  { name: "SimpLink", githubUrl: "https://simp-link.vercel.app/", id: generateId(), icons: [ReactIcon(), NodejsIcon(), ExpressjsIcon(),] },
-  { name: "SimpLink", githubUrl: "https://simp-link.vercel.app/", id: generateId(), icons: [ReactIcon(), NodejsIcon(), ExpressjsIcon(),] },
-  { name: "SimpLink", githubUrl: "https://simp-link.vercel.app/", id: generateId(), icons: [ReactIcon(), NodejsIcon(), ExpressjsIcon(), ReactIcon(), NodejsIcon(), ExpressjsIcon(), ReactIcon(), NodejsIcon(), ExpressjsIcon(),] },
+const items = [
+  { name: "SimpLink", githubUrl: "https://simp-link.vercel.app/", icons: [ReactIcon(), TSIcon(), NodejsIcon(), ExpressjsIcon(),] },
 
 ]
 
-export default items;
+const proyects: Proyect[] = items.map(item => ({ ...item, id: generateIdWithAKey(item.name) }))
+
+export default proyects;

@@ -1,11 +1,15 @@
+import { useTranslation } from "react-i18next";
+import BackToMainPageButton from "./components/BackToMainPageButton";
 import LanguageSwitcher from "./components/LanguageSwitcher";
-import Home from "./pages/Home";
+import Routes from "./routes";
 
 export default function App() {
+  const { t } = useTranslation();
   return (
     <>
       <LanguageSwitcher />
-      <Home />
+      <BackToMainPageButton t={t} />
+      <Routes t={t} />
     </>
 
   )

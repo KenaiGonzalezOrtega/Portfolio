@@ -9,21 +9,21 @@ import TSIcon from "../icons/TSIcon";
 import TailwindcssIcon from "../icons/TailwindcssIcon";
 import VueIcon from "../icons/VueIcon";
 import type IconItem from "../interfaces/IconItems";
-import generateId from "./generateID";
+import generateId from "../services/generateID";
 
 
-const items: IconItem[] = [
-  { icon: HTMLIcon(), text: "HTML", id: generateId() },
-  { icon: CSSIcon(), text: "CSS", id: generateId() },
-  { icon: JSIcon(), text: "JavaScript", id: generateId() },
-  { icon: TSIcon(), text: "TypeScript", id: generateId() },
-  { icon: ReactIcon(), text: "React", id: generateId() },
-  { icon: VueIcon(), text: "Vue", id: generateId() },
-  { icon: TailwindcssIcon(), text: "Tailwindcss", id: generateId() },
-  { icon: NodejsIcon(), text: "Node.js", id: generateId() },
-  { icon: ExpressjsIcon(), text: "Express.js", id: generateId() },
-
-
+const items = [
+  { icon: HTMLIcon(), text: "HTML" },
+  { icon: CSSIcon(), text: "CSS" },
+  { icon: JSIcon(), text: "JavaScript" },
+  { icon: TSIcon(), text: "TypeScript" },
+  { icon: ReactIcon(), text: "React" },
+  { icon: VueIcon(), text: "Vue" },
+  { icon: TailwindcssIcon(), text: "Tailwindcss" },
+  { icon: NodejsIcon(), text: "Node.js" },
+  { icon: ExpressjsIcon(), text: "Express.js" },
 ];
 
-export default items;
+const skills: IconItem[] = items.map(item => ({ ...item, id: generateId() }))
+
+export default skills;

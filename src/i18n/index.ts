@@ -50,9 +50,10 @@ i18n
             technologies: "Technologies",
             more: "See more",
             "SimpLink": {
-              short: "SimpLink is a web app for creating and managing short URLs. It offers a fast, secure, and efficient solution for sharing links."
+              short: "SimpLink is a web application for creating and managing short URLs. It offers a fast, secure, and efficient solution for sharing links."
             }
-          }
+          },
+          backToHome: "Back to main page"
 
         }
       },
@@ -96,7 +97,9 @@ i18n
             "SimpLink": {
               short: "SimpLink es una aplicación web para crear y gestionar URL cortas. Ofrece una solución rápida, segura y eficiente para compartir enlaces."
             }
-          }
+          },
+          backToHome: "Volver a la página principal"
+
 
         }
 
