@@ -40,6 +40,10 @@ i18n
               "Open Mindedness": "Open Mindedness",
               "Continuous Learning": "Continuous Learning"
             }
+          },
+          contact: {
+            title: "Contact",
+            email: "Send email"
           }
 
         }
@@ -72,6 +76,10 @@ i18n
               "Open Mindedness": "Mentalidad abierta",
               "Continuous Learning": "Aprendizaje continuo"
             }
+          },
+          contact: {
+            title: "Contacto",
+            email: "Enviar un email "
           }
 
         }
