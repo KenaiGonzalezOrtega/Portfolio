@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export const SpainFlag = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="100%" height="auto">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="100%" height="100%">
     <title>Español</title>
     <rect width="3" height="2" fill="#aa151b" />
     <rect y="0.5" width="3" height="1" fill="#f1bf00" />
@@ -10,12 +10,13 @@ export const SpainFlag = () => (
 );
 
 export const EnglandFlag = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="100%" height="auto">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 426" width="100%" height="100%">
     <title>English</title>
-    <rect width="640" height="480" fill="#fff" />
-    <path fill="#cf142b" d="M0 216h640v48H0zM296 0h48v480h-48z" />
+    <rect width="640" height="426" fill="#fff" />
+    <path fill="#cf142b" d="M0 189h640v48H0zM296 0h48v426h-48z" />
   </svg>
 );
+
 
 const lngs: { [key: string]: { nativeName: string, flag: React.ComponentType } } = {
   en: { nativeName: "En", flag: EnglandFlag },
@@ -23,8 +24,10 @@ const lngs: { [key: string]: { nativeName: string, flag: React.ComponentType } }
 };
 
 export default function LanguageSwitcher() {
-  const [selected, setSelected] = useState("en")
   const { i18n } = useTranslation();
+  const [selected, setSelected] = useState(i18n.language)
+
+
 
   const handleClick = (lng: string) => {
     i18n.changeLanguage(lng)
