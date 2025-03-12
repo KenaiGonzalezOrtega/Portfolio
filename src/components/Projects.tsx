@@ -1,9 +1,9 @@
 import type { TFunction } from "i18next";
-import proyects from "../data/proyects"
+import projects from "../data/projects"
 import Carousel from "./Carousel";
-import ProyectCard from "./ProyectCard";
+import ProjectCard from "./ProjectCard";
 
-export default function Proyects({ t }: { t: TFunction }) {
+export default function Projects({ t }: { t: TFunction }) {
   let visibleItems: number;
   const width = window.innerWidth
   if (width >= 1024) {
@@ -17,10 +17,10 @@ export default function Proyects({ t }: { t: TFunction }) {
   return (
     <section id="projects" className="py-16 w-full bg-white px-8">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-semibold text-primary">{t('proyects.title')}</h2>
+        <h2 className="text-3xl font-semibold text-primary">{t('projects.title')}</h2>
       </div>
-      <Carousel visibleItems={visibleItems} totalItems={proyects.length}>
-        {proyects.map(proyect => <ProyectCard t={t} proyect={proyect} key={proyect.id} />)}
+      <Carousel visibleItems={visibleItems} totalItems={projects.length}>
+        {projects.map(project => <ProjectCard t={t} project={project} key={project.id} />)}
       </Carousel>
     </section>
   )

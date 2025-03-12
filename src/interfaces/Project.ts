@@ -1,6 +1,6 @@
 import type { JSX } from "react";
 
-export default interface Proyect {
+export default interface Project {
   id: string,
   name: string,
   githubUrl: string,

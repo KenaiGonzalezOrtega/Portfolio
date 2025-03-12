@@ -45,8 +45,8 @@ i18n
             title: "Contact",
             email: "Send email"
           },
-          proyects: {
-            title: "My proyects",
+          projects: {
+            title: "My projects",
             technologies: "Technologies",
             more: "See more",
             "SimpLink": {
@@ -90,7 +90,7 @@ i18n
             title: "Contacto",
             email: "Enviar un email "
           },
-          proyects: {
+          projects: {
             title: "Mis proyectos",
             technologies: "Tecnologías",
             more: "Ver más",

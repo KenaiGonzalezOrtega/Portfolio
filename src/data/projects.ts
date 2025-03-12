@@ -2,7 +2,8 @@ import ExpressjsIcon from "../icons/ExpressjsIcon";
 import NodejsIcon from "../icons/NodejsIcon";
 import ReactIcon from "../icons/ReactIcon";
 import TSIcon from "../icons/TSIcon";
-import type Proyect from "../interfaces/Proyect";
+import type Project from "../interfaces/Project";
+
 import { generateIdWithAKey } from "../services/generateID";
 
 const items = [
@@ -10,6 +11,6 @@ const items = [
 
 ]
 
-const proyects: Proyect[] = items.map(item => ({ ...item, id: generateIdWithAKey(item.name) }))
+const projects: Project[] = items.map(item => ({ ...item, id: generateIdWithAKey(item.name) }))
 
-export default proyects;
+export default projects;
