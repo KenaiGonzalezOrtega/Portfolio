@@ -13,10 +13,10 @@ export default function Project({ projectId, t }: { projectId: string, t: TFunct
     return null
   }
   return (
-    <div className="flex flex-col items-center min-h-screen bg-background-secondary dark:bg-dark-background-secondary text-text-secondary dark:text-dark-text-secondary mt-10 md:mt-0">
+    <div className="flex flex-col items-center min-h-screen bg-background-secondary dark:bg-dark-background-secondary text-text-secondary dark:text-dark-text-secondary pt-10 md:pt-0">
 
-      <header className="py-10 md:py-20 text-justify md:text-center">
-        <h1 className="mb-4 text-4xl font-bold dark:text-dark-title-secondary text-title-secondary">
+      <header className="flex flex-col gap-10 py-10 md:py-20 text-justify md:text-center">
+        <h1 className=" text-4xl font-bold dark:text-dark-title-secondary text-title-secondary">
           {project.name}
         </h1>
         <div className='flex justify-around'>
