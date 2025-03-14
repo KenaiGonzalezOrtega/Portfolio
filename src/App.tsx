@@ -6,11 +6,11 @@ import Routes from "./routes";
 export default function App() {
   const { t } = useTranslation();
   return (
-    <>
+    <div id="app" className="scheme-light-dark">
       <LanguageSwitcher />
       <BackToMainPageButton t={t} />
       <Routes t={t} />
-    </>
+    </div>
 
   )
 }

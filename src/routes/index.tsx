@@ -10,7 +10,7 @@ export default function Routes({ t }: { t: TFunction }) {
         <Home t={t} />
       </Route>
       <Route path="/project/:id">
-        {(params) => <Project projectId={params.id} />}
+        {(params) => <Project projectId={params.id} t={t} />}
       </Route>
     </Switch>
   )

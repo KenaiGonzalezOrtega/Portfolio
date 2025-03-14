@@ -15,9 +15,9 @@ export default function Projects({ t }: { t: TFunction }) {
   }
   //const visibleItems = window.innerWidth >= 1024 ? 3 : 2
   return (
-    <section id="projects" className="py-16 w-full bg-white px-8">
+    <section id="projects" className="py-16 w-full bg-background-alternative dark:bg-dark-background-alternative px-8">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-semibold text-primary">{t('projects.title')}</h2>
+        <h2 className="text-3xl font-semibold text-title-alternative dark:text-dark-title-alternative">{t('projects.title')}</h2>
       </div>
       <Carousel visibleItems={visibleItems} totalItems={projects.length}>
         {projects.map(project => <ProjectCard t={t} project={project} key={project.id} />)}

@@ -40,7 +40,7 @@ export default function LanguageSwitcher() {
         const FlagComponent = lngs[lng].flag;
         return (
           <button
-            className={`border-2 rounded-2xl cursor-pointer grid grid-cols-[.3fr_.7fr] justify-center items-center p-2 ${selected === lng ? "border-gray-400" : "border-transparent"}`}
+            className={`text-text-primary dark:text-dark-text-primary border-2 rounded-2xl cursor-pointer grid grid-cols-[.3fr_.7fr] justify-center items-center p-2 ${selected === lng ? "border-title-alternative dark:border-dark-title-alternative" : "border-transparent"}`}
             key={lng}
             type="button"
             onClick={handleClick.bind(null, lng)}

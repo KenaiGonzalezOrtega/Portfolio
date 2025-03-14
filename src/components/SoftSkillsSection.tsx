@@ -5,9 +5,9 @@ import softSkills from '../data/softSkills'
 export default function SoftSkillsSection({ t }: { t: TFunction }) {
 
   return (
-    <section id="skills" className="flex flex-col items-center w-full py-16 bg-background-alternative ">
+    <section id="skills" className="flex flex-col items-center w-full py-16 bg-background-secondary dark:bg-dark-background-secondary text-text-secondary dark:text-dark-text-secondary ">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-semibold text-secondary">
+        <h2 className="text-3xl font-semibold text-title-secondary dark:text-dark-title-secondary">
           {t("softSkills.title")}
         </h2>
       </div>
@@ -27,7 +27,7 @@ export default function SoftSkillsSection({ t }: { t: TFunction }) {
                   {item.icon}
                 </div>
 
-                <p className="text-lg text-gray-700 text-center w-full">{t(`softSkills.texts.${item.text}`)}</p>
+                <p className="text-lg text-primary-text text-center w-full">{t(`softSkills.texts.${item.text}`)}</p>
               </div>
             </li>
           )

@@ -1,6 +1,6 @@
+import type { TFunction } from "i18next";
 import { Link, useLocation } from "wouter";
 import GoBackIcon from "../icons/GoBackIcon";
-import type { TFunction } from "i18next";
 
 export default function BackToMainPageButton({ t }: { t: TFunction }) {
   const [location] = useLocation()
@@ -9,9 +9,9 @@ export default function BackToMainPageButton({ t }: { t: TFunction }) {
   }
   return (
     <div className="absolute flex items-center justify-center gap-4 top-4 left-4">
-      <Link className="flex flex-col gap-4 md:flex-row " href="/">
+      <Link className="flex flex-col gap-4 md:flex-row text-text-secondary dark:text-dark-text-secondary" href="/">
         <GoBackIcon />
-        <span className="hidden font-semibold md:block text-secondary-text">
+        <span className="hidden font-semibold md:block ">
           {t('backToHome')}
         </span>
 

@@ -10,7 +10,7 @@ import SoftSkillsSection from "../components/SoftSkillsSection";
 
 export default function Home({ t }: { t: TFunction }) {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-background">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-background-primary dark:bg-dark-background-primary">
 
 
       <Presentation t={t} />

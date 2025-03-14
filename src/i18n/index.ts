@@ -50,7 +50,10 @@ i18n
             technologies: "Technologies",
             more: "See more",
             "SimpLink": {
-              short: "SimpLink is a web application for creating and managing short URLs. It offers a fast, secure, and efficient solution for sharing links."
+              short: "SimpLink is a web application for creating and managing short URLs. It offers a fast, secure, and efficient solution for sharing links.",
+              description: "SimpLink is a web application thet lets you create and manage short URLs efficiently, offering a simple solution to the problem of long and difficult-to-share URLs. The tool helps users generate shorter links, enhancing the user experience when sharing content on digital platforms, through messages or on social networks",
+              technologies: "The project backend is developed in <span class='font-bold italic'>Node.js with Express</span>, also utilizing a <span class='font-bold italic'>Hexagonal Architecture</span>, which facilitates the separation of responsibilities and scalability, making the backend well-organized and easily adaptable to future expansions. <br />Regarding the frontend, it is developed in <span class='font-bold italic'>React</span>, providing a smooth, reactive, and dynamic interface, that enhances the user experience. Additionally, <span class='font-bold italic'>TypeScript</span> is used in the frontend for better type control and to prevent such errors.",
+
             }
           },
           backToHome: "Back to main page"
@@ -95,7 +98,9 @@ i18n
             technologies: "Tecnologías",
             more: "Ver más",
             "SimpLink": {
-              short: "SimpLink es una aplicación web para crear y gestionar URL cortas. Ofrece una solución rápida, segura y eficiente para compartir enlaces."
+              short: "SimpLink es una aplicación web para crear y gestionar URL cortas. Ofrece una solución rápida, segura y eficiente para compartir enlaces.",
+              description: "SimpLink es una aplicación web que permite crear y gestionar URLs cortas de forma eficiente, ofreciendo una solución sencilla a la problematica de las URLs largas y complicadas de compartir. La herramienta ayuda a los usuarios a generar enlaces mas cortos, mejorando así la experiencia al compartir contenido en plataformas digitales, mensajes o redes sociales.",
+              technologies: "El backend del proyecto está desarrollado en <span class='font-bold italic'>Node.js con Express</span>, utilizando además una <span class='font-bold italic'>Arquitectura Hexagonal</span>, la cual facilita la separación de responsabilidades y la escalabilidad, lo que hace que el backend esté bien organizado y que se pueda adaptar fácilmente a futuras expansiones. <br /> Respecto al frontend, está desarrollado en <span class='font-bold italic'>React</span>, lo que proporciona una interfaz fluida, reactiva y dinámica, lo que mejora la experiencia de usuario.Además, en el frontend se utiliza <span class='font-bold italic'>TypeScript</span> para un mejor control del tipado y evitar errores de este tipo."
             }
           },
           backToHome: "Volver a la página principal"
