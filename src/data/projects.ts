@@ -20,7 +20,7 @@ const items: ProjectWithoutId[] = [
       ExpressjsIcon(),
       HexagonIcon()
     ],
-    demoUrl: "https://vleztvuwggqccychzzli.supabase.co/storage/v1/object/public/simplink//SimpLink_DEMO.webm",
+    demoUrl: "https://vleztvuwggqccychzzli.supabase.co/storage/v1/object/public/simplink//SimpLink_DEMO.mp4",
     coverImgUrl: "https://vleztvuwggqccychzzli.supabase.co/storage/v1/object/public/simplink//img1.png"
   },
 

@@ -11,7 +11,7 @@ export default function SoftSkillsSection({ t }: { t: TFunction }) {
           {t("softSkills.title")}
         </h2>
       </div>
-      <ul className="w-1/2 grid grid-cols-2 gap-10">
+      <ul className="w-full lg:w-1/2 grid grid-cols-2 gap-10">
         {softSkills.map(item => {
 
           return (

@@ -1,7 +1,5 @@
 import type { TFunction } from "i18next";
 import AboutMe from "../components/AboutMe";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import Presentation from "../components/Presentation";
 import Projects from "../components/Projects";
 import SkillsSection from "../components/SkillsSection";
@@ -22,10 +20,6 @@ export default function Home({ t }: { t: TFunction }) {
       <SoftSkillsSection t={t} />
 
       <Projects t={t} />
-
-      <Contact t={t} />
-
-      <Footer />
 
     </div>
   );

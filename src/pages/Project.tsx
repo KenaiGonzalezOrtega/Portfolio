@@ -51,8 +51,8 @@ export default function Project({ projectId, t }: { projectId: string, t: TFunct
 
       </section>
       <section className='gap-10 p-10 md:p-20 bg-background-secondary dark:bg-dark-background-secondary'>
-        <video loop muted controls className='max-h-[90vh]'>
-          <source src={project.demoUrl} />
+        <video muted controls preload='metadata' className='max-h-[90vh]'>
+          <source src={project.demoUrl} type="video/webm" />
         </video>
       </section>
     </div>

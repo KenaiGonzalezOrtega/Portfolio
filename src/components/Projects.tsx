@@ -15,7 +15,7 @@ export default function Projects({ t }: { t: TFunction }) {
   }
   //const visibleItems = window.innerWidth >= 1024 ? 3 : 2
   return (
-    <section id="projects" className="py-16 w-full bg-background-alternative dark:bg-dark-background-alternative px-8">
+    <section id="projects" className="py-16 w-full bg-background-alternative dark:bg-dark-background-alternative ">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-semibold text-title-alternative dark:text-dark-title-alternative">{t('projects.title')}</h2>
       </div>
