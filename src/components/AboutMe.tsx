@@ -8,9 +8,9 @@ export default function AboutMe({ t }: { t: TFunction }) {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <img
-          src="https://via.placeholder.com/200"
+          src="https://vleztvuwggqccychzzli.supabase.co/storage/v1/object/public/portfolio//img_profile.jpg"
           alt="Kenai"
-          className="rounded-full w-40 h-40 mb-6 md:mb-0"
+          className="rounded-full aspect-square w-60 h-auto mb-6 md:mb-0"
         />
         <p className="text-lg text-center max-w-3/4">
           {t('about.description')}
